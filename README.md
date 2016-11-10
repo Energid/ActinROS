@@ -23,7 +23,7 @@ Executables will be built into ROOT/build/bin.  Before running an executable mak
 1. Download and install the installer.
 2. Create a link from the ROOT installer directory (i.e. ~/Energid/Actin_4.1.0.20161028) to the ActinROS directory. This can be done as follows from the command prompt 
   1. cd ~/Energid/Actin_4.1.0.20161028 
-  2. ln -s  ActinROS ~/Your/Development/Repositories/ActinROS 
+  2. ln -s ~/Your/Development/Repositories/ActinROS ActinROS
 3. Launch CMake 
   1. Set "Where is the source" to the ROOT installer directory  
   2. Set "Where to build the binaries" to ROOT/build   (see below)
